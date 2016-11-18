@@ -91,9 +91,6 @@ class Board
 	end
 
 	def check_for_win(marker)
-		
-
-
 		#check horizontal
 		
 		square_array=@squares.to_a
@@ -183,17 +180,7 @@ class Board
 		if empty_squares==0
 			return 2
 		end
-
-
-
-
 		return 0
-
-
-
-
-
-
 	end
 
 
@@ -231,9 +218,6 @@ end
 
 
 class Game
-
-
-
 
 	def initialize
 		@game_board=Board.new
@@ -310,9 +294,3 @@ class Game
 
 end
 
-i=0
-while i<3 do
-my_game=Game.new
-i+=1
-end
-puts "Ok, that's it. You've played too many games. Go do something constructive. Goodbye."
